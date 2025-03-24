@@ -39,7 +39,7 @@ In this exercise, you will:
    - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    - Scroll down and click the **Create repository** button at the bottom of the form.
 
-3. After your new repository is created, goto [1_preparing.md](.github/steps/1_preparing.md) this is where we will start building our application.
+3. After your new repository is created, go to [1_preparing.md](.github/steps/1_preparing.md) this is where we will start building our application.
 
 Resources: [Octofit Tracker application story for Mergington High School](docs/octofit_story.md)
 
