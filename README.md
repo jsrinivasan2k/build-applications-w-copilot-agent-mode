@@ -15,7 +15,6 @@ In this exercise, we will prompt GitHub Copilot agent mode to create us a comple
 - **Who is this for**: Intermediate developers familiar with GitHub Copilot, basic GitHub, and basic web development
 - **What you'll learn**: We'll introduce GitHub Copilot agent mode and how to use it for application development.
 - **What you'll build**: You'll use GitHub Copilot agent mode to create a fitness application as the gym teacher of a high school.
-- **Prerequisites**: Skills Exercise: Getting Started with GitHub Copilot.
 - **How long**: This course takes less than one hour to complete.
 
 In this exercise, you will:
@@ -39,14 +38,23 @@ In this exercise, you will:
    - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    - Scroll down and click the **Create repository** button at the bottom of the form.
 
-3. After your new repository is created, go to [1_preparing.md](.github/steps/1_preparing.md) this is where we will start building our application.
+3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
 
-   Read through the background about GitHub Copilot agent mode and then look for the first activity and the ![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg) icon to setup your development environment.
+   - The **Copy Exercise** button will deactivate, changing to gray.
+   - The **Start Exercise** button will activate, changing to green.
+   - You will likely need to refresh the page.
 
-Resources: [Octofit Tracker application story for Mergington High School](docs/octofit_story.md)
+4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
+
+   <a id="start-exercise">
+      <img src="https://img.shields.io/badge/🚀_Start_Exercise-AAA" height="25pt"/>
+   </a>
+
+> [!IMPORTANT]
+> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+[Review the GitHub status page](https://www.githubstatus.com/)
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
