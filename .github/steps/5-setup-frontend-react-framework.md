@@ -122,3 +122,8 @@ Now, let's actually try running the react application! In the left sidebar, sele
 >
 >Don't proceed with the next activity until all of these steps are completed.
 >```
+
+### :keyboard: Optional Activity: Iterate on the appearance and try different models
+
+>[!NOTE]
+>Try creating your own prompts to change the application, add features, and try different models.

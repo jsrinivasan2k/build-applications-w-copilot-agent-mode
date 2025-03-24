@@ -50,4 +50,4 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 
 ## Next step
 
-Now that the Django REST framework is setup, let's continue on to the next step [Step 5: Setup the React Frontend Framework](./5_setup_frontend_react_framework.md)
+Now that the Django REST framework is setup, let's continue on to the next step [Step 5: Setup the React Frontend Framework](./5-setup-frontend-react-framework.md)

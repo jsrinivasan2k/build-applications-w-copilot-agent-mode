@@ -131,4 +131,4 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
 ## Next step
 
-Now that your branch is pushed to GitHub, let's continue on to the next step [Step 2: Application Initial Setup](./2_application_initial_setup.md)
+Now that your branch is pushed to GitHub, let's continue on to the next step [Step 2: Application Initial Setup](./2-application-initial-setup.md)
