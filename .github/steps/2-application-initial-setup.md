@@ -89,4 +89,4 @@ Keep files creating and updating until the Copilot agent mode has finished.
 
 ## Next step
 
-Now that the application structure and initial setup is complete, let's continue on to the next step [Step 3: Database and Django Project Setup](./3_database_django_project_setup.md)
+Now that the application structure and initial setup is complete, let's continue on to the next step [Step 3: Database and Django Project Setup](./3-database-django-project-setup.md)
