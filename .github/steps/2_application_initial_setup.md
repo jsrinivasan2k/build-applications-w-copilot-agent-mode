@@ -86,3 +86,7 @@ Keep files creating and updating until the Copilot agent mode has finished.
 > You may not need to run this step if it was already started in the previous step.
 > [!IMPORTANT]
 > You may need to hit the stop button in GitHub Copilot chat since the copilot agent mode command is spinning when installing the mongoDB database service. Then type next command to start and verify the mongoDB service is running.
+
+## Next step
+
+Now that the application structure and initial setup is complete, let's continue on to the next step [Step 3: Database and Django Project Setup](./3_database_django_project_setup.md)

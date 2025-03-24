@@ -76,3 +76,7 @@ In this step, we will will accomplish the following:
 >
 > [!IMPORTANT]
 > You may need to prompt agent mode and tell it that "the command is cutoff".
+
+## Next step
+
+Now that the Django project backend setup and the database is populated, let's continue on to the next step [Step 4: Setup Django REST Framework](./4_setup_django_rest_framework.md)

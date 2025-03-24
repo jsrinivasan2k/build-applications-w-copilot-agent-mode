@@ -47,3 +47,7 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 > Make sure the pop-up shows to open the browser to also choose to make it public.
 
 ![make-public-light](https://github.com/user-attachments/assets/db483bad-4ddf-4321-869a-9bc3ad165e2e)
+
+## Next step
+
+Now that the Django REST framework is setup, let's continue on to the next step [Step 5: Setup the React Frontend Framework](./5_setup_frontend_react_framework.md)

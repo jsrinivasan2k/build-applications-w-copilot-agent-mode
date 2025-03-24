@@ -41,6 +41,8 @@ In this exercise, you will:
 
 3. After your new repository is created, go to [1_preparing.md](.github/steps/1_preparing.md) this is where we will start building our application.
 
+   Read through the background about GitHub Copilot agent mode and then look for the first activity and the ![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg) icon to setup your development environment.
+
 Resources: [Octofit Tracker application story for Mergington High School](docs/octofit_story.md)
 
 ---
