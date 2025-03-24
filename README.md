@@ -29,7 +29,7 @@ In this exercise, you will:
 
 1. Right-click **Copy Exercise** and open the link in a new tab.
 
-   <a id="copy-exercise" href="https://github.com/new?template_owner=skills&template_name=build-applications-w-copilot-agent-mode&owner=%40me&name=skills-build-applications-w-copilot-agent-mode=Exercise:+My+Copilot+agent+mode&visibility=public">
+   <a id="copy-exercise" href="https://github.com/new?template_owner=skills&template_name=build-applications-w-copilot-agent-mode&owner=%40me&name=skills-build-applications-w-copilot-agent-mode&description=Exercise:+Build+my+application+with+Copilot+agent+mode&visibility=public">
       <img src="https://img.shields.io/badge/📠_Copy_Exercise-008000" height="25pt"/>
    </a>
 
@@ -39,19 +39,9 @@ In this exercise, you will:
    - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    - Scroll down and click the **Create repository** button at the bottom of the form.
 
-3. After your new repository is created, wait about 20 seconds for the course to be prepared.
+3. After your new repository is created, goto [1_preparing.md](.github/steps/1_preparing.md) this is where we will start building our application.
 
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
-
-   <a id="start-exercise">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-AAA" height="25pt"/>
-   </a>
-
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+Resources: [Octofit Tracker application story for Mergington High School](docs/octofit_story.md)
 
 ---
 
