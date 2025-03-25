@@ -154,17 +154,41 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
 
-      - name: Build comment - add step content
-        id: build-comment
-        run: |
-          # echo "updated-text=$(cat ${{ env.STEP_1_FILE }})" >> $GITHUB_OUTPUT
-          echo "contents=$(cat .github/steps/1-preparing.md)" >> $GITHUB_OUTPUT
-          echo "::set-output name=contents::$contents" >> $GITHUB_OUTPUT
-      
       - name: Create comment - add step content
-        run: |
-          gh issue comment "$ISSUE_URL" \
-            --body "$ISSUE_BODY"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_BODY: ${{ steps.build-comment.outputs.contents }}
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const core = require('@actions/core');
+
+            const markdownFile = fs.readFileSync('.github/steps/1-preparing.md', 'utf8');
+            core.exportVariable('MARKDOWN_CONTENT', markdownFile);
+
+            const { context, github } = require('@actions/github');
+
+            const issueNumber = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            await github.rest.issues.createComment({
+              issue_number: issueNumber,
+              owner: owner,
+              repo: repo,
+              body: markdownFile
+            });
+
+      # - name: Build comment - add step content
+      #   id: build-comment
+      #   run: |
+      #     # echo "updated-text=$(cat ${{ env.STEP_1_FILE }})" >> $GITHUB_OUTPUT
+      #     echo "contents=$(cat .github/steps/1-preparing.md)" >> $GITHUB_OUTPUT
+      #     echo "::set-output name=contents::$contents" >> $GITHUB_OUTPUT
+      
+      # - name: Create comment - add step content
+      #   run: |
+      #     gh issue comment "$ISSUE_URL" \
+      #       --body "$ISSUE_BODY"
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     ISSUE_BODY: ${{ steps.build-comment.outputs.contents }}
