@@ -156,13 +156,9 @@ jobs:
 
       - name: Build comment - add step content
         id: build-comment
-        uses: skills/action-text-variables@v1
-        with:
-          template-file: ${{ env.STEP_1_FILE }}
-          template-vars: |
-            login=${{ github.actor }}
-            full_repo_name=${{ github.repository }}
-
+        run: |
+          echo "updated-text=$(cat ${{ env.STEP_1_FILE }})" >> $GITHUB_OUTPUT
+      
       - name: Create comment - add step content
         run: |
           gh issue comment "$ISSUE_URL" \
