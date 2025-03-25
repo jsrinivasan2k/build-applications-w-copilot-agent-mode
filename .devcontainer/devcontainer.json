@@ -14,10 +14,6 @@
             "ms-python.vscode-pylance" // Pylance extension for Python
         ]}
     },
-    "features": {
-        "insider": true,
-        "update": "insiders"
-    },
     "forwardPorts": [
         3000, // React default port
         8000, // Django default port
