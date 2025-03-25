@@ -163,7 +163,7 @@ jobs:
           template-vars: |
             login=${{ github.actor }}
             full_repo_name=${{ github.repository }}
-            next_step_file=${{ env.STEP_2_FILE }}
+            next_step_file=${{ github.repository }}/blob/main/${{ env.STEP_2_FILE }}
 
       - name: Create comment - add step content
         run: |

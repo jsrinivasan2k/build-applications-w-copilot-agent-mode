@@ -68,7 +68,7 @@ This development environment includes:
 1. Confirm the **Repository** field is your copy of the exercise, not the original, then click the green **Create Codespace** button.
 
    - ✅ Your copy: `/{{{full_repo_name}}}`
-   - ❌ Original: `/skills/build-applications-w-copilot-agent-mode`
+   - ❌ Original: `/continuous-copilot/build-applications-w-copilot-agent-mode`
 
 1. Wait a moment for Visual Studio Code to load.
 
@@ -131,4 +131,4 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
 ## Next step
 
-Now that your branch is pushed to GitHub, let's continue on to the next step [Step 2: Application Initial Setup]({{{next_step_file}}}).
+Now that your branch is pushed to GitHub, let's continue on to the next step Step 2: Application Initial Setup - {{{next_step_file}}}.
