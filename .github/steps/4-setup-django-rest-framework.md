@@ -46,7 +46,7 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 > ex. redesigned-spork-g6pj46rr9hpp6x
 > Make sure the pop-up shows to open the browser to also choose to make it public.
 
-![make-public-light](https://github.com/user-attachments/assets/db483bad-4ddf-4321-869a-9bc3ad165e2e)
+![make-public-light](../../docs/make-public-light.png)
 
 ## Next step
 
