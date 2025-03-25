@@ -154,28 +154,26 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
 
-      - name: Create comment - add step content
+      - name: Read markdown file
+        id: read_markdown
+        run: |
+          content=$(cat .github/steps/1-preparing.md)
+          echo "file_content<<EOF" >> $GITHUB_ENV
+          echo "$content" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          echo "issue_number=${{ github.event.issue.number }}" >> $GITHUB_ENV
+      
+      - name: Add comment to issue
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs = require('fs');
-            let core = require('@actions/core');
-
-            const markdownFile = fs.readFileSync('.github/steps/1-preparing.md', 'utf8');
-            core.exportVariable('MARKDOWN_CONTENT', markdownFile);
-
-            const { context, github } = require('@actions/github');
-
-            const issueNumber = context.issue.number;
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-
-            await github.rest.issues.createComment({
-              issue_number: issueNumber,
-              owner: owner,
-              repo: repo,
-              body: markdownFile
+            const issue_number = process.env.issue_number;
+            const body = process.env.file_content;
+            github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              body
             });
 
       # - name: Build comment - add step content
