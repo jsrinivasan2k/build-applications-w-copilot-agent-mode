@@ -157,7 +157,9 @@ jobs:
       - name: Build comment - add step content
         id: build-comment
         run: |
-          echo "updated-text=$(cat ${{ env.STEP_1_FILE }})" >> $GITHUB_OUTPUT
+          # echo "updated-text=$(cat ${{ env.STEP_1_FILE }})" >> $GITHUB_OUTPUT
+          echo "contents=$(cat .github/steps/1-preparing.md)" >> $GITHUB_OUTPUT
+          echo "::set-output name=contents::$contents" >> $GITHUB_OUTPUT
       
       - name: Create comment - add step content
         run: |
@@ -165,4 +167,4 @@ jobs:
             --body "$ISSUE_BODY"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_BODY: ${{ steps.build-comment.outputs.updated-text }}
+          ISSUE_BODY: ${{ steps.build-comment.outputs.contents }}
