@@ -66,7 +66,7 @@ jobs:
         run: |
           # Add link to .github/steps/1-preparing.md
           target='id="start-exercise"'
-          replacement='id="start-exercise" href=".github/steps/1-preparing.md"'
+          replacement='id="start-exercise" href="../../issues/1"'
           sed -i "s|$target|$replacement|g" README.md
 
           # Change color from gray to green
@@ -163,7 +163,7 @@ jobs:
           template-vars: |
             login=${{ github.actor }}
             full_repo_name=${{ github.repository }}
-            next_step_file=${{ github.repository }}/blob/main/${{ env.STEP_2_FILE }}
+            next_step_file=https://github.com/${{ github.repository }}/blob/main/${{ env.STEP_2_FILE }}
 
       - name: Create comment - add step content
         run: |
