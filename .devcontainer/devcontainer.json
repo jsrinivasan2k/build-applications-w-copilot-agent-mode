@@ -15,7 +15,8 @@
         ]}
     },
     "features": {
-        "insider": true
+        "insider": true,
+        "update": "insiders"
     },
     "forwardPorts": [
         3000, // React default port
