@@ -46,7 +46,6 @@ In this step, we will accomplish the following:
 >
 > 1. The octofit-tracker/backend directory will store the django project and app with the name octofit-tracker.
 > 2. Setup the additional configuration for the django project/app with the name octofit-tracker.
-> 3. Run makemigrations and migrate the database but don't start the server yet.
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```
