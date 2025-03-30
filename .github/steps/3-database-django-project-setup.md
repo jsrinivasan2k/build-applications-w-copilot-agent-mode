@@ -37,7 +37,8 @@ In this step, we will will accomplish the following:
 > ```
 >
 > [!IMPORTANT]
-> You may need to copy and paste this in the terminal if there is no "Continue" button.
+> You may need to copy and paste the resppnse in the terminal if there is no "Continue" button.
+> Sometimes there is a scrolling issue and there may not be a "Continue" button.
 
 ### :keyboard: Activity: Update the Python Django project/app files
 
