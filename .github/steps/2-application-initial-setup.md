@@ -66,7 +66,8 @@ Keep files creating and updating until the Copilot agent mode has finished.
 >```
 >
 > [!IMPORTANT]
-> You may need to hit the stop button in GitHub Copilot chat since the copilot agent mode command is spinning when installing the mongoDB database service.
+> If the command completes in the terminal but agent mode shows it is still running click stop.
+> You may need to paste the prompt again in agent mode.
 
 ### :keyboard: Activity: Let's start and verify mongoDB is running
 
@@ -84,7 +85,8 @@ Keep files creating and updating until the Copilot agent mode has finished.
 > [!NOTE]
 > You may not need to run this step if it was already started in the previous step.
 > [!IMPORTANT]
-> You may need to hit the stop button in GitHub Copilot chat since the copilot agent mode command is spinning when installing the mongoDB database service. Then type next command to start and verify the mongoDB service is running.
+> If the command completes in the terminal but agent mode shows it is still running click stop.
+> You may need to paste the prompt again in agent mode.
 
 ## Next step
 
