@@ -35,7 +35,7 @@ In this step, we will will accomplish the following:
 > 
 > Don't proceed with the next activity until all of these steps are completed.
 > ```
->
+
 > [!IMPORTANT]
 > You may need to copy and paste the resppnse in the terminal if there is no "Continue" button.
 > Sometimes there is a scrolling issue and there may not be a "Continue" button.
@@ -75,7 +75,7 @@ In this step, we will will accomplish the following:
 > 
 > Don't proceed with the next activity until all of these steps are completed.
 >```
->
+
 > [!IMPORTANT]
 > You may need to prompt agent mode and tell it that "the command is cutoff".
 
