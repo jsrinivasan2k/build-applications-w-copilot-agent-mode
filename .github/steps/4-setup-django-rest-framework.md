@@ -1,8 +1,8 @@
-## Step 4: Setup django REST Framework, restart the server, and test the API
+## Step 4: Setup Django REST Framework, restart the server, and test the API
 
-In this step, we will will accomplish the following:
+In this step, we will accomplish the following:
 
-- Setup the django REST Framework.
+- Setup the Django REST Framework.
 - Restart the server.
 - Test the API using curl.
 
@@ -17,7 +17,7 @@ In this step, we will will accomplish the following:
 > Keep files created and updated by Copilot agent mode until it is finished.
 > Agent mode has the ability to evaluate your code base and execute commands and add/refactor/delete parts of your code base and automatically self heal if it or you makes a mistake in the process.
 
-### :keyboard: Activity: Setup django REST Framework, restart the server, and test the API
+### :keyboard: Activity: Setup Django REST Framework, restart the server, and test the API
 
 > [!NOTE]
 > Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
@@ -27,13 +27,13 @@ In this step, we will will accomplish the following:
 > **Prompt**
 >
 > ```prompt
->Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's setup codespace for the url, restart the server, and test the API.
+>Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's setup codespace for the URL, restart the server, and test the API.
 > 
 > 1. Activate the python virtual environment.
-> 2. Update #file:octofit-tracker/backend/octofit_tracker/views.py to replace the return for the rest api url endpoints with the codespace url https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev for django and avoid certificate HTHS issues.
-> 3. Make sure the django backend works on [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev and localhost:8000.
-> 4. Test the API end points using curl command.
-> 5. Allow host access to codespace url and localhost:8000.
+> 2. Update #file:octofit-tracker/backend/octofit_tracker/views.py to replace the return for the REST API URL endpoints with the codespace URL https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev for Django and avoid certificate HTTPS issues.
+> 3. Make sure the Django backend works on [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev and localhost:8000.
+> 4. Test the API endpoints using curl command.
+> 5. Allow host access to codespace URL and localhost:8000.
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```

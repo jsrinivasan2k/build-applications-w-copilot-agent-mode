@@ -2,7 +2,7 @@
 
 Welcome to your **"Build applications with GitHub Copilot agent mode"** exercise! :robot:
 
-In this exercise, you will be using GitHub Copilot agent mode to build an application that tracks your fitness goals and progress. 🏋️‍♂️🏃‍♀️💪
+In this exercise, you will be using GitHub Copilot agent mode to build an application that tracks your fitness goals and progress. 🏋️‍♀️🏃‍♂️💪
 
 ### What is GitHub Copilot agent mode?
 
@@ -10,17 +10,17 @@ Copilot agent mode can create apps from scratch, perform refactorings across mul
 
 Copilot agent mode operates in a more autonomous and dynamic manner to achieve the desired outcome. To process a request, Copilot loops over the following steps and iterates multiple times as needed:
 
-Determines the relevant context and files to edit autonomously.
-Offers both code changes and terminal commands to complete the task. For example, Copilot might compile code, install packages, run tests, and more.
-Monitors the correctness of code edits and terminal command output and iterates to remediate issues.
+- Determines the relevant context and files to edit autonomously.
+- Offers both code changes and terminal commands to complete the task. For example, Copilot might compile code, install packages, run tests, and more.
+- Monitors the correctness of code edits and terminal command output and iterates to remediate issues.
 
 > [!TIP]
 > You can learn more about GitHub Copilot agent mode in the [Use agent mode documentation](https://code.visualstudio.com/docs/copilot/copilot-edits#_use-agent-mode-preview).
 
 > [!NOTE]
- Copilot agent mode is a preview feature available in [Visual Studio Code Insiders](https://code.visualstudio.com/insiders).
+> Copilot agent mode is a preview feature available in [Visual Studio Code Insiders](https://code.visualstudio.com/insiders).
 
-Your most common interactions with Gitub Copilot will likely be:
+Your most common interactions with GitHub Copilot will likely be:
 
 - **Inline suggestions**: As you type, Copilot uses the nearby context to suggest code directly in your editor. This will be a familiar interaction if you have used code completion tools like [Intellisense](https://code.visualstudio.com/docs/editor/intellisense), except that the completions may be entire functions.
 - **Copilot Chat**: A dedicated chat panel that lets you ask coding related questions. This will feel familiar if you have used online AI assistant chats. The big difference however, is that your project files will provide automatic context to provide tailored responses.
@@ -76,20 +76,20 @@ This development environment includes:
 
    - The left navigation bar is where you can access the file explorer, debugger, and search.
    - The lower panel (Ctrl+J) shows the debugger output, allows running terminal commands, and allows configuring the web service ports.
-   - Our docs folder contains the another sample application repository that will give Copilot agent mode context to build your application. More on that in the next steps!
+   - Our docs folder contains another sample application repository that will give Copilot agent mode context to build your application. More on that in the next steps!
 
 1. At the top of VS Code, locate and click the Copilot icon to open a Copilot Chat panel.
 
 <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
 
-1. If this is your first, time using GitHub Copilot, you will have to accept the usage terms to continue.
+1. If this is your first time using GitHub Copilot, you will have to accept the usage terms to continue.
     - Click the **Accept** button to continue.
     - If you are using Copilot Chat for the first time, you will also have to accept the usage terms to continue.
     - Click the **Accept** button to continue.
 
 ### :keyboard: Activity: Use Copilot to help remember a terminal command 🙋
 
-Great work! Now that we are familiar with the app and we know it works, let's ask copilot for help starting a branch so we can do some customizing.
+Great work! Now that we are familiar with the app and we know it works, let's ask Copilot for help starting a branch so we can do some customizing.
 
 1. If not already there, return to VS Code.
 
@@ -97,14 +97,14 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
    > **Note:** This will avoid stopping the existing debug session that is hosting our web application service.
 
-1. Within the new terminal window, use the keyboard shortcut `Ctrl + I` (windows) or `Cmd + I` (mac).
+1. Within the new terminal window, use the keyboard shortcut `Ctrl + I` (Windows) or `Cmd + I` (Mac).
 
 1. Let's ask Copilot to help us remember a command we have forgotten: creating a branch and publishing it
 
    > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
    >
    > ```prompt
-   > Hey copilot, how can I create and publish a new Git branch?
+   > Hey Copilot, how can I create and publish a new Git branch?
    > ```
 
    > **Tip:** This is a simple example, but Copilot is great at providing more tailored commands that might involve loops, pattern matching, file modification, and more! Don't be afraid to ask Copilot for a suggestion. Just remember it is a suggestion and you should always verify it first to be safe.

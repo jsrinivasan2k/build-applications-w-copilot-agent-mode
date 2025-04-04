@@ -1,10 +1,10 @@
 ## Step 3: Initialize and create the octofit_db MongoDB database, update Django project/app files, and populate the MongoDB database
 
-In this step, we will will accomplish the following:
+In this step, we will accomplish the following:
 
-- Setup the octofig_db mongoDB database structure.
-- Update the octofit-tracker/backend/octofit_tracker app files.
-  - settings, models, serializers, urls, views, tests, admins files.
+- Setup the octofit_db MongoDB database structure.
+- Update the octofit-tracker/backend/octofit_tracker app files:
+  - settings, models, serializers, urls, views, tests, admin files.
 - Populate the octofit_db database with test data.
 - Verify the test data is populated in the octofit_db database.
 
@@ -24,7 +24,7 @@ In this step, we will will accomplish the following:
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's initialize the octofit_db database.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's initialize the octofit_db database.
 >
 > 1. Initialize the mongo octofit_db database.
 > 2. Create a correct table structure for users, teams, activity, leaderboard, and workouts collections.
@@ -45,18 +45,18 @@ In this step, we will will accomplish the following:
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's update the octofit-tracker/backend/octofit_tracker app files.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's update the octofit-tracker/backend/octofit_tracker app files.
 >
-> 1. Update the octofit-tracker/backend/octofit_tracker/settings.py file to include the mongoDB database connection.
+> 1. Update the octofit-tracker/backend/octofit_tracker/settings.py file to include the MongoDB database connection.
 > 2. Update the octofit-tracker/backend/octofit_tracker/models.py file to include the models for users, teams, activity, leaderboard, and workouts collections.
 > 3. Update the octofit-tracker/backend/octofit_tracker/serializers.py file to include the serializers for users, teams, activity, leaderboard, and workouts collections.
-> 4. Update the octofit-tracker/backend/octofit_tracker/urls.py file to include the urls for users, teams, activity, leaderboard, and workouts collections.
+> 4. Update the octofit-tracker/backend/octofit_tracker/urls.py file to include the URLs for users, teams, activity, leaderboard, and workouts collections.
 > 5. Update the octofit-tracker/backend/octofit_tracker/views.py file to include the views for users, teams, activity, leaderboard, and workouts collections.
 > 6. Update the octofit-tracker/backend/octofit_tracker/tests.py file to include the tests for users, teams, activity, leaderboard, and workouts collections.
 > 7. Update the octofit-tracker/backend/octofit_tracker/admin.py file to include the admin for users, teams, activity, leaderboard, and workouts collections.
 > 8. Enable CORS in the octofit-tracker/backend/octofit_tracker/settings.py file to allow cross-origin requests from the frontend React app and allow all origins, methods, and headers.
 > 9. Allow all hosts in settings.py file.
-> 10 Install CORS middleware components.
+> 10. Install CORS middleware components.
 >
 >Don't proceed with the next activity until all of these steps are completed.
 >```
@@ -66,7 +66,7 @@ In this step, we will will accomplish the following:
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's populate the octofit_db database with test data. Use same data from docs/mona-high-school-fitness-tracker.md file.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's populate the octofit_db database with test data. Use same data from docs/mona-high-school-fitness-tracker.md file.
 > 
 > 1. Create a test data file in the octofit-tracker/backend/octofit_tracker directory.
 > 2. Run makemigrations and migrate the database in a Python virtual environment.
@@ -77,7 +77,7 @@ In this step, we will will accomplish the following:
 >```
 
 > [!IMPORTANT]
-> You may need to prompt agent mode and tell it that "the command is cutoff".
+> You may need to prompt agent mode and tell it that "the command is cut off".
 
 ## Next step
 
