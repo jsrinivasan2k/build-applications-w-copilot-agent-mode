@@ -666,7 +666,7 @@ Create the following components
 
 Basic username password authentication is fine
 
-## index.js potential React version issues
+### index.js potential React version issues
 
 The error indicates that the ReactDOM.render function is not available in the version of React you are using. This is because React 18 introduced a new root API for rendering.
 
