@@ -46,6 +46,9 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 > Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
 > ex. redesigned-spork-g6pj46rr9hpp6x
 > You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
+> In case you restarted the workspace make sure your Django port is public.
+
+<img src="../../docs/ports-public-light.png" width=50% height=50%>
 
 ## Next step
 
