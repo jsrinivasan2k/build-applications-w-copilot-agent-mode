@@ -68,7 +68,7 @@ In this step, we will accomplish the following:
 
 Now, let's actually try running the react application! In the left sidebar, select the `Run and Debug` tab and then press the **Start Debugging** icon.
 
-<img src="../../docs/ghcp-build-app-launch-react.png" width=30% height=30%>
+<img src="https://github.com/user-attachments/assets/3a879778-b8b6-4b32-9925-b5f321e7f551" width=30% height=30%>
 
 ### :keyboard: Activity: Let's add some formatting, structuring, and styling to the octofit tracker app
 
