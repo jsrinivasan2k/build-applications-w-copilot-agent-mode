@@ -10,7 +10,7 @@ In this step, we will accomplish the following:
 2. Click the GitHub Copilot Chat click the :paperclip: and add "Open Editors" to the prompt.
 3. Copy and paste the following prompt in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the drop down where you are inserting the prompt.
 
-<img src="../../docs/ghcp-agent-mode.png" width=60% height=60%>
+<img src="https://github.com/user-attachments/assets/0c8e4ace-1f39-4c5d-8232-379fcf5316c1" width=60% height=60%>
 
 >[!NOTE]
 > Do not change the model from GPT-4o this will be an optional activity at the end of the course.
