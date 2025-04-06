@@ -33,7 +33,7 @@ In this step, we will accomplish the following:
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```
->
+
 > [!IMPORTANT]
 > Once the above activity installs all the required packages, proceed to the next activity.
 
