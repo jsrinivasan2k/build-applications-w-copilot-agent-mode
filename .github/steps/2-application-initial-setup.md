@@ -10,7 +10,7 @@ In this step, we will accomplish the following:
     1.  agent mode uses `mona-high-school-fitness-tracker.md` and `octofit_story.md` as a reference to create the application
 2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the drop down where you are inserting the prompt.
 
-<img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=60% height=60%>
+<img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=40% height=40%>
 
 > 🪧 **Note:** 
 - Do not change the model from GPT-4o this will be an optional activity at the end of the course.
