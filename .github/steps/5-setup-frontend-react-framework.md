@@ -11,7 +11,7 @@ In this step, we will accomplish the following:
   - src/components/Teams.js
   - src/components/Users.js
   - src/components/Workouts.js
-- Start the react app and check the output.
+- Start the React app and check the output.
 
 1. Open all files in the `docs` folder and keep this file open in the editor.
 2. Click the GitHub Copilot Chat click the :paperclip: and add "Open Editors" to the prompt.
@@ -29,23 +29,29 @@ In this step, we will accomplish the following:
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's setup codespace for the octofit-tracker frontend React framework.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's setup codespace for the octofit-tracker frontend React framework.
 >
 > 1. Make the octofit-tracker/frontend directory.
 > 2. Create the react app in the octofit-tracker/frontend directory.
 > 3. Install bootstrap in the octofit-tracker/frontend directory.
-> 4. Import bootstrap CSS in the src/index.js file.
+> 4. Import bootstrap css in the src/index.js file.
 > 5. Install the react-router-dom in the octofit-tracker/frontend directory.
+> 6. Don't change .gitignore file
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```
 
 ### :keyboard: Activity: Update the octofit-tracker frontend React components
 
+> [!NOTE]
+> Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
+> ex. redesigned-spork-g6pj46rr9hpp6x
+> You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
+>
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's update the octofit-tracker frontend React components.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's update the octofit-tracker frontend React components.
 >
 > - Update the following components to include the React framework to point to the backend API:
 >   - src/App.js
@@ -55,8 +61,8 @@ In this step, we will accomplish the following:
 >   - src/components/Teams.js
 >   - src/components/Users.js
 >   - src/components/Workouts.js
-> - In each component replace the fetch URL with the codespace URL [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] for the Django REST framework backend.
-> - Make sure to use the correct port and protocol HTTP or HTTPS.
+> - In each component replace the fetch url with the codespace url [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] for the Django rest framework backend.
+> - Make sure to use the correct port and protocol http or https.
 > - Update src/App.js to include the main navigation for all components.
 > - Make sure react-router-dom is used for the navigation menu.
 > - The react app should show the navigation menu and the components.
@@ -64,21 +70,26 @@ In this step, we will accomplish the following:
 > Don't proceed with the next activity until all of these steps are completed.
 > ```
 
+>[!IMPORTANT]
+> Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
+> ex. redesigned-spork-g6pj46rr9hpp6x
+> You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
+
 ### :keyboard: Activity: Start the react app and check the output
 
 Now, let's actually try running the react application! In the left sidebar, select the `Run and Debug` tab and then press the **Start Debugging** icon.
 
-<img src="https://github.com/user-attachments/assets/3a879778-b8b6-4b32-9925-b5f321e7f551" width=30% height=30%>
+<img src="https://github.com/user-attachments/assets/8ab08e4e-539a-4ca9-8270-be4b1f0df176"  width=30% height=30%>
 
 ### :keyboard: Activity: Let's add some formatting, structuring, and styling to the octofit tracker app
 
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's style this like App.css and make it look nice.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
 >
-> - Let's make the App.js and all components JavaScript files in the app consistent with the following:
->   - Use bootstrap tables for the data in all JavaScript components.
+> - Let's make the App.js and all components javascript files in the app are consistent with the following:
+>   - Use bootstrap tables for the data in all javascript components.
 >   - Use bootstrap buttons for the buttons.
 >   - Use bootstrap headings for the headings.
 >   - Use bootstrap links for the links.
@@ -95,9 +106,9 @@ Now, let's actually try running the react application! In the left sidebar, sele
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's style this like App.css and make it look nice.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
 > 
-> - Edit the App.css file to do the following:
+> -  Edit the App.css file to do the following:
 >   - Add some color to the background.
 >   - Add some color to the text.
 >   - Add some color to the tables.
@@ -108,7 +119,7 @@ Now, let's actually try running the react application! In the left sidebar, sele
 > - Add the octofitapp-small logo justified to the left to the app and make it look nice.
 > - Add a favicon to the app and make it look nice.
 >
-> Don't proceed with the next activity until all of these steps are completed.
+>Don't proceed with the next activity until all of these steps are completed.
 >```
 
 ### :keyboard: Optional Activity: Iterate on the appearance and try different models
@@ -116,3 +127,24 @@ Now, let's actually try running the react application! In the left sidebar, sele
 >[!NOTE]
 > Try creating your own prompts to change the application appearance, add features, and try different models.
 > Once you are happy with the application you can commit the changes and push them to your branch `build-octofit-app`.
+
+1. Now that we have created the REACT frontend for all application components let's check our changes in to our `build-octofit-app` branch.
+
+1. With our new changes complete, please **commit** and **push** the changes to GitHub.
+
+1. Wait a moment for Mona to check your work, provide feedback, and share the final lesson. Almost done!
+
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+If you don't get feedback, here are some things to check:
+
+- Make sure your commit changes were made for the following files to the branch `build-octofit-app` and pushed/synchronized to GitHub:
+  - `octofit-tracker/frontend/src/components/Activities.js` and it contains `-8000.app.github.dev/api/activities/`
+  - `octofit-tracker/frontend/src/components/Leaderboard.js` and it contains `-8000.app.github.dev/api/leaderboard/`
+  - `octofit-tracker/frontend/src/components/Teams.js` and it contains `-8000.app.github.dev/api/teams/`
+  - `octofit-tracker/frontend/src/components/Users.js` and it contains `-8000.app.github.dev/api/users/`
+  - `octofit-tracker/frontend/src/components/Workouts.js` and it contains `-8000.app.github.dev/api/workouts/`
+- If Mona found a mistake, simply make a correction and push your changes again. Mona will check your work as many times as needed.
+
+</details>

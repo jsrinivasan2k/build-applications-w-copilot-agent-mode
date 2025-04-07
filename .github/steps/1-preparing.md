@@ -118,6 +118,14 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
 1. After a moment, look in the VS Code lower status bar, on the left, to see the active branch. It should now say `build-octofit-app`. If so, you are all done with this step!
 
-## Next step
+1. Now that your branch is pushed to GitHub, Mona should already be busy checking your work. Give her a moment and keep watch in the comments. You will see her respond with progress info and the next lesson.
 
-Now that your branch is pushed to GitHub, let's continue on to the next step Step 2: Application Initial Setup - {{{next_step_file}}}.
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+If you don't get feedback, here are some things to check:
+
+- Make sure your created the branch with the exact name `build-octofit-app`. No prefixes or suffixes.
+- Make sure the branch was indeed published to your repository.
+
+</details>
