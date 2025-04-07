@@ -29,7 +29,7 @@ In this step, we will accomplish the following:
 > ```prompt
 >Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's setup codespace for the URL, restart the server, and test the API.
 > 
-> 1. Activate the python virtual environment.
+> 1. Activate the Python virtual environment.
 > 2. Update #file:octofit-tracker/backend/octofit_tracker/views.py to replace the return for the REST API URL endpoints with the codespace URL https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev for Django and avoid certificate HTTPS issues.
 > 3. Make sure the Django backend works on [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev and localhost:8000.
 > 4. Test the API endpoints using curl command.
@@ -40,13 +40,28 @@ In this step, we will accomplish the following:
 
 Now, let's actually try running the Django application! In the left sidebar, select the `Run and Debug` tab and then press the **Start Debugging** icon.
 
-<img src="https://github.com/user-attachments/assets/b1921335-ca68-465a-8845-bf4a750a47a2" width=30% height=30%>
+<img src="https://github.com/user-attachments/assets/baef4dfe-0751-45cb-9e16-8ff26ba9ff58" width=30% height=30%>
 
 >[!IMPORTANT]
 > Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name.
 > ex. redesigned-spork-g6pj46rr9hpp6x
 > You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
 
-## Next step
+1. Now that we have updated our Django product to include our codespace name for the URL endpoint,
+   let's check our changes in to our `build-octofit-app` branch.
 
-Now that the Django REST framework is setup, let's continue on to the next step [Step 5: Setup the React Frontend Framework](./5-setup-frontend-react-framework.md)
+1. With our new changes complete, please **commit** and **push** the changes to GitHub.
+
+1. Wait a moment for Mona to check your work, provide feedback, and share the final lesson. Almost done!
+
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+If you don't get feedback, here are some things to check:
+
+- Make sure your commit changes were made for the following files to the branch `build-octofit-app` and pushed/synchronized to GitHub:
+  - `octofit-tracker/backend/octofit_tracker/settings.py`
+  - `octofit-tracker/backend/octofit_tracker/views.py`
+- If Mona found a mistake, simply make a correction and push your changes again. Mona will check your work as many times as needed.
+
+</details>

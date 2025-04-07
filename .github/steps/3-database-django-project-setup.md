@@ -2,22 +2,22 @@
 
 In this step, we will accomplish the following:
 
-- Setup the octofit_db MongoDB database structure.
+- Set up the octofit_db MongoDB database structure.
 - Update the octofit-tracker/backend/octofit_tracker app files:
-  - settings, models, serializers, urls, views, tests, admin files.
+  - settings, models, serializers, urls, views, tests, and admin files.
 - Populate the octofit_db database with test data.
 - Verify the test data is populated in the octofit_db database.
 
 1. Open all files in the `docs` folder and keep this file open in the editor.
-2. Click the GitHub Copilot Chat click the :paperclip: and add "Open Editors" to the prompt.
-3. Copy and paste the following prompt in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the drop down where you are inserting the prompt.
+2. Click the GitHub Copilot Chat, click the :paperclip:, and add "Open Editors" to the prompt.
+3. Copy and paste the following prompt in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the dropdown where you are inserting the prompt.
 
 >[!NOTE]
-> Do not change the model from GPT-4o this will be an optional activity at the end of the course.
-> Keep in mind that the Copilot agent mode is conversational so it may ask you questions and you can ask it questions too.
+> Do not change the model from GPT-4; this will be an optional activity at the end of the course.
+> Keep in mind that the Copilot agent mode is conversational, so it may ask you questions, and you can ask it questions too.
 > Wait a moment for the Copilot to respond and press the continue button to execute commands presented by Copilot agent mode.
 > Keep files created and updated by Copilot agent mode until it is finished.
-> Agent mode has the ability to evaluate your code base and execute commands and add/refactor/delete parts of your code base and automatically self heal if it or you makes a mistake in the process.
+> Agent mode has the ability to evaluate your codebase and execute commands and add/refactor/delete parts of your codebase and automatically self-heal if it or you make a mistake in the process.
 
 ### :keyboard: Activity: Setup the Python Django project/app
 
@@ -41,11 +41,11 @@ In this step, we will accomplish the following:
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's initialize the octofit_db database.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's initialize the octofit_db database.
 >
 > 1. Initialize the mongo octofit_db database.
 > 2. Create a correct table structure for users, teams, activity, leaderboard, and workouts collections.
-> 3. Make sure there is a unique id for primary key for the user collection.
+> 3. Make sure there is a unique ID for the primary key for the user collection.
 >   ex. db.users.createIndex({ "email": 1 }, { unique: true })
 > 4. Execute the command for me to create the database.
 > 5. List the collections in the octofit_db database.
@@ -54,8 +54,8 @@ In this step, we will accomplish the following:
 > ```
 
 > [!IMPORTANT]
-> You may need to copy and paste the response in the terminal if there is no "Continue" button.
-> Sometimes there is a scrolling issue and there may not be a "Continue" button.
+> If there is no "Continue" button, just pull the left side of the GitHub Copilot Chat panel over to the left, and it should appear.
+> If this doesn't work, you may need to copy and paste the response in the terminal if there is no "Continue" button.
 
 ### :keyboard: Activity: Update the Python Django project/app files
 
@@ -77,13 +77,14 @@ In this step, we will accomplish the following:
 > 11. Install CORS middleware components.
 >
 > Don't proceed with the next activity until all of these steps are completed.
+> ```
 
-### :keyboard: Activity: populate the octofit_db database with test data from Django project/app files
+### :keyboard: Activity: Populate the octofit_db database with test data from Django project/app files
 
 > **Prompt**
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's populate the octofit_db database with test data. Use same data from docs/mona-high-school-fitness-tracker.md file.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's populate the octofit_db database with test data. Use the same data from docs/mona-high-school-fitness-tracker.md file.
 > 
 > 1. Create a test data file in the octofit-tracker/backend/octofit_tracker directory.
 > 2. Run makemigrations and migrate the database in a Python virtual environment.
@@ -91,11 +92,26 @@ In this step, we will accomplish the following:
 > 4. Verify the test data is populated in the octofit_db database.
 > 
 > Don't proceed with the next activity until all of these steps are completed.
->```
+> ```
 
 > [!IMPORTANT]
-> You may need to prompt agent mode and tell it that "the command is cut off".
+> If there is no "Continue" button, just pull the left side of the GitHub Copilot Chat panel over to the left, and it should appear.
+> If this doesn't work, you may need to copy and paste the response in the terminal if there is no "Continue" button.
 
-## Next step
+1. Now that we have created the database structure, updated our Django project files, and populated the database, let's check our changes into our `build-octofit-app` branch.
 
-Now that the Django project backend setup and the database is populated, let's continue on to the next step [Step 4: Setup Django REST Framework](./4-setup-django-rest-framework.md)
+1. With our new changes complete, please **commit** and **push** the changes to GitHub.
+
+1. Wait a moment for Mona to check your work, provide feedback, and share the final lesson. Almost done!
+
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+If you don't get feedback, here are some things to check:
+
+- Make sure your commit changes were made for the following files to the branch `build-octofit-app` and pushed/synchronized to GitHub:
+  - `octofit-tracker/backend/octofit_tracker/settings.py`
+  - `octofit-tracker/backend/octofit_tracker/management/commands/populate_db.py`
+- If Mona found a mistake, simply make a correction and push your changes again. Mona will check your work as many times as needed.
+
+</details>
