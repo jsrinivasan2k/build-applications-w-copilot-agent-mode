@@ -37,14 +37,14 @@ In this step, we will accomplish the following:
 
 > ❕ **Important:** Once the above activity installs all the required packages, proceed to the next activity.
 
-### :keyboard: Activity: Let's install mongoDB
+### :keyboard: Activity: Let's install MongoDB
 
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's install mongoDB.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's install MongoDB.
 >
-> 1. Install mongoDB and make sure the command is complete.
+> 1. Install MongoDB and make sure the command is complete.
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```
@@ -53,15 +53,15 @@ In this step, we will accomplish the following:
 - If the command completes in the terminal but agent mode shows it is still running click stop.
 - You may need to paste the prompt again in agent mode.
 
-### :keyboard: Activity: Let's start and verify mongoDB is running
+### :keyboard: Activity: Let's start and verify MongoDB is running
 
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's start and verify mongoDB is running.
+> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's start and verify MongoDB is running.
 >
-> 1. Start the mongoDB service.
-> 2. Verify the mongoDB service running.
+> 1. Start the MongoDB service.
+> 2. Verify the MongoDB service running.
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```
