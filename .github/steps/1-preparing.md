@@ -32,7 +32,7 @@ Monitors the correctness of code edits and terminal command output and iterates 
 
 1. Wait a moment for Visual Studio Code to load.
     1. You may need to switch to VS Code insiders edition in the codespace since agent mode was released on 4/4 as a phased rollout to users.
-   <img src="https://github.com/user-attachments/assets/5a72c5b2-2d0f-4f84-bc3d-b276b90d44d7" width=30% height=30%>
+   <img width="323" alt="Image" src="https://github.com/user-attachments/assets/a0d4671a-b9d9-454c-a375-0c2452fc5172" />
    
 1. Before we continue let's take a moment to familiarize ourselves with the project folder.
 
@@ -42,7 +42,7 @@ Monitors the correctness of code edits and terminal command output and iterates 
 
 1. At the top of VS Code, locate and click the Copilot icon to open a Copilot Chat panel.
 
-<img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
+   <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
 
 1. If this is your first, time using GitHub Copilot, you will have to accept the usage terms to continue.
     - Click the **Accept** button to continue.
@@ -58,7 +58,7 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 1. Open the GitHub Copilot Chat window if not already open. 
 2. Copy and paste the following prompt in the GitHub Copilot Chat and select the **Agent** instead of **Ask** or **Edit** from the drop down where you are inserting the prompt.
 
-<img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=30% height=30%>
+   <img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=30% height=30%>
 
 
 > 🪧 **Note:** 
