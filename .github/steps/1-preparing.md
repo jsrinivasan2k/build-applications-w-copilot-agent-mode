@@ -32,8 +32,8 @@ Monitors the correctness of code edits and terminal command output and iterates 
 
 1. Wait a moment for Visual Studio Code to load.
     1. You may need to switch to VS Code insiders edition in the codespace since agent mode was released on 4/4 as a phased rollout to users.
-   <img width="323" alt="Image" src="https://github.com/user-attachments/assets/a0d4671a-b9d9-454c-a375-0c2452fc5172" />
-   
+   <img width="323" alt="Image" src="https://github.com/user-attachments/assets/8ff8868b-9120-4055-8449-175e85552ba2" />
+
 1. Before we continue let's take a moment to familiarize ourselves with the project folder.
 
    - The left navigation bar is where you can access the file explorer, debugger, and search.
